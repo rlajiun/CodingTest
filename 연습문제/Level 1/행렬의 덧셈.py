@@ -5,5 +5,5 @@ def solution(arr1, arr2):
         for j in range(len(arr1[i])):
             a.append(arr1[i][j] + arr2[i][j])
         answer.append(a)
-        # answer = [[c + d for c, d in zip(a, b)] for a, b in zip(A,B)] 다른 사람의 풀이
+        # answer = [[c + d for c, d in zip(a, b)] for a, b in zip(arr1,arr2)] 다른 사람의 풀이
     return answer
